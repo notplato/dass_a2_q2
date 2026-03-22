@@ -41,10 +41,6 @@ class InventoryModule:
         print(f"GARAGE: {self.cars[car_id]['model']} condition is now {new_condition}%")
         return True
 
-    def get_all_cars(self):
-        """Returns all the cars owned"""
-        return self.cars
-
     def get_available_cars(self):
         """Returns cars that are in good enough condition to race (>20%)."""
         return {cid: data for cid, data in self.cars.items() if data["condition"] > 20}
