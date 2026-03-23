@@ -7,9 +7,9 @@ levels up the winning driver, and maintains a leaderboard.
 Depends on: RaceManagementModule, CrewManagementModule, InventoryModule
 """
 
-from raceManagement import RaceManagementModule
-from crewManagement import CrewManagementModule
-from inventory import InventoryModule
+from .raceManagement import RaceManagementModule
+from .crewManagement import CrewManagementModule
+from .inventory import InventoryModule
 
 # damage applied to each participating car per race (percentage points)
 RACE_DAMAGE: dict[str, int] = {

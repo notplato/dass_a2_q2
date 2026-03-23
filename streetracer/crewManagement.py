@@ -7,7 +7,7 @@ registered crew member.  Skills are clamped to [0, 100].
 Depends on: RegistrationModule
 """
 
-from registration import RegistrationModule
+from .registration import RegistrationModule
 
 ROLE_SKILLS: dict[str, list[str]] = {
     "driver":     ["cornering", "reflexes", "throttle_control", "stamina"],

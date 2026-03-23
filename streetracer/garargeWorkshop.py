@@ -6,8 +6,8 @@ Provides repair and upgrade services for cars in the garage.
 Depends on: InventoryModule, CrewManagementModule
 """
 
-from inventory import InventoryModule
-from crewManagement import CrewManagementModule
+from .inventory import InventoryModule
+from .crewManagement import CrewManagementModule
 
 # cost per condition point restored
 REPAIR_COST_PER_POINT = 20   # $20 per 1% condition

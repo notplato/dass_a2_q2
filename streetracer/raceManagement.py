@@ -6,8 +6,8 @@ Creates race events and handles driver / car entry validation.
 Depends on: CrewManagementModule, InventoryModule
 """
 
-from crewManagement import CrewManagementModule
-from inventory import InventoryModule
+from .crewManagement import CrewManagementModule
+from .inventory import InventoryModule
 
 VALID_DIFFICULTIES = {"easy", "medium", "hard", "extreme"}
 

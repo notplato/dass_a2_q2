@@ -9,8 +9,8 @@ and marks participants busy → available.
 Depends on: CrewManagementModule, InventoryModule
 """
 
-from crewManagement import CrewManagementModule
-from inventory import InventoryModule
+from .crewManagement import CrewManagementModule
+from .inventory import InventoryModule
 
 VALID_MISSION_TYPES = {"delivery", "rescue", "heist", "surveillance", "sabotage"}
 
